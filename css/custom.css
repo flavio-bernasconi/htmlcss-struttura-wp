@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.frame{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: #80b3ff;
+}
+header nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #3385ff;
+
+}
+
+.contenitore::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contenitore .sidebar{
+  float: left;
+  width: 25%;
+  height: 50vh;
+  background-color: #80b3ff;
+  margin-right: 20px;
+}
+
+.contenitore .content{
+  float: left;
+  width: 40%;
+  height: 90vh;
+  background-color: #e6f0ff;
+  margin-right: 20px;
+
+}
+
+.contenitore .blocchi-dx{
+  float: left;
+  width: 30%;
+  height: 70vh;
+}
+
+.contenitore .blocchi-dx .blocco{
+  width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
+.uno{
+  background-color: #80b3ff;
+}
+.due{
+  background-color: #3385ff;
+}
+.tre{
+  background-color: #80b3ff;
+}
+
+
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #0052cc;
+  margin-top: 30px;
+}
+
+footer .row{
+  height: 40%;
+  background-color:  #80b3ff;
+  width: 100%;
+}
