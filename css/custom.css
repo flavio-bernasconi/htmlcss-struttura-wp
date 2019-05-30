@@ -7,21 +7,24 @@
 }
 
 header{
-  position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
-  height: 300px;
   background-color: #80b3ff;
 }
 header nav{
-  position: absolute;
-  bottom: 0;
   width: 100%;
   height: 100px;
   background-color: #3385ff;
 
 }
+
+header .img{
+  width: 100%;
+  height: 300px;
+  background-color: #e6f0ff;
+}
+
 
 .contenitore::after{
   content: '';
